@@ -31,7 +31,7 @@ import Section from './Section.astro'
     slot='background'
     alt='Accesorios'
     class='h-full w-full object-cover object-center'
-    src='/public/accessories.avif'
+    src='/accessories.avif'
     id='bg-image-accessories'
   />
 </Section>
@@ -53,8 +53,8 @@ import Section from './Section.astro'
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = '/public/accessories.webp'
+    imageElement.src = '/accessories.webp'
   } else {
-    imageElement.src = '/public/accessories.avif'
+    imageElement.src = '/accessories.avif'
   }
 </script>

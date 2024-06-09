@@ -5,5 +5,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  base:"http://ValenZalazar3.github.io/Tesla-Landing"
+  // base:""
 });

@@ -31,7 +31,7 @@ import Section from './Section.astro'
     alt='Model 3'
     class='h-full w-full object-cover object-center'
     id='bg-image-model3'
-    src='/public/model-3.webp'
+    src='/model-3.webp'
   />
 </Section>
 
@@ -52,8 +52,8 @@ import Section from './Section.astro'
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = '/public/model-3.webp'
+    imageElement.src = '/model-3.webp'
   } else {
-    imageElement.src = '/public/model-3.avif'
+    imageElement.src = '/model-3.avif'
   }
 </script>

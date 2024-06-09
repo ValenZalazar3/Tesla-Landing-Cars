@@ -30,7 +30,7 @@ import Section from './Section.astro'
     slot='background'
     alt='Solar y Powerwall'
     class='h-full w-full object-cover object-center'
-    src='/public/powerwall.avif'
+    src='/powerwall.avif'
     id='bg-image-powerwall'
   />
 </Section>
@@ -52,8 +52,8 @@ import Section from './Section.astro'
   ) as HTMLImageElement
 
   if (isEdge()) {
-    imageElement.src = '/public/powerwall.webp'
+    imageElement.src = '/powerwall.webp'
   } else {
-    imageElement.src = '/public/powerwall.avif'
+    imageElement.src = '/powerwall.avif'
   }
 </script>
